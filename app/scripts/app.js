@@ -85,13 +85,11 @@
   window.addEventListener('Agave::ready', function() {
       var Agave, info;
       var htmlString;
-      var paramChr, paramBeg, paramEnd;
+      var paramChrnum, paramStart, paramStrand;
 
-      paramChr=1;     // sample values
-      paramBeg=9000;
-      paramEnd=10000;
-
-      /**
+      paramChrnum=6;     // sample values
+      paramStart=10;
+      paramStrand='w';/**
        * Use the jQuery .html() setter/getter function to REPLACE content. 
        * Alter the HTML title to show we are running. 
        * Add a div to hold the interactive application content. 
